@@ -1,0 +1,118 @@
+.section {
+  padding: 30px;
+
+  @media screen and (min-width: 768px) {
+    padding: 30px 60px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 45px 180px;
+  }
+}
+
+.flex-wrap {
+    position: relative;
+    @media screen and (min-width: 1280px) {
+            display: flex;
+            justify-content: space-between;
+        }
+}
+
+/* HERO */
+.section.hero-section {
+  @media screen and (min-width: 768px) {
+    padding: 30px 60px 60px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding: 45px 180px;
+  }
+}
+
+/* PROFILE */
+.section.profile-section {
+  padding: 10px 30px 30px;
+
+  @media screen and (min-width: 768px) {
+    padding: 30px 60px 60px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 30px 54px 30px;
+
+  }
+}
+
+/* CONTACTS */
+.section.contacts-section {
+        @media screen and (max-width: 300px) {
+            padding: 30px 10px;
+          }
+
+    @media screen and (min-width: 768px) {
+            background-color: var(--additional-color);
+        }
+
+  @media screen and (min-width: 1280px) {
+    padding: 30px 0px 50px 40px;
+ 
+  }
+}
+
+/* PROJECTS */
+.section.projects-section {
+  padding: 30px 20px;
+
+  @media screen and (min-width: 768px) {
+    padding: 60px 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 70px 180px 90px;
+  }
+}
+
+/* TECH & SOFT */
+.section.soft-section {
+  background-color: var(--additional-color);
+
+    @media screen and (min-width: 768px) {
+        width: 295px;
+        padding: 30px 0px 30px 60px;
+      }
+    
+      @media screen and (min-width: 1280px) {
+        padding: 45px 0px 45px 60px;
+        margin-left: 180px;
+      }
+}
+
+.section.tech-section {
+  background-color: var(--additional-color);
+  padding: 30px;
+
+      @media screen and (min-width: 768px) {
+          width: 295px;
+        }
+
+        @media screen and (min-width: 1280px) {
+            margin-left: 180px;
+          }
+}
+
+/* WORK & ED */
+.section.work-section,
+.section.ed-section {
+  @media screen and (min-width: 768px) {
+    padding: 30px 90px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 45px 180px 45px 170px;
+  }
+}
+
+.skills-work-flex {
+    @media screen and (min-width: 768px) {
+        display: flex;
+      }
+}
