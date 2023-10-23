@@ -25,3 +25,11 @@
 .skills-list > li {
     list-style: disc;
 }
+
+.helper {
+        padding-left: 20px;
+        
+            @media screen and (min-width: 768px) {
+                padding-left: unset;
+            }
+}
